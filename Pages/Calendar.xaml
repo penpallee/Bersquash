@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bersquash.Pages.Calendar"
+             Title="Calendar"
+             BackgroundColor="#1ABC9C">
+
+    <StackLayout Padding="20">
+        <Label Text="Calendar"
+               FontSize="24"
+               TextColor="White"
+               HorizontalOptions="Center"
+               Margin="10"/>
+        <Frame BackgroundColor="White" CornerRadius="10" Padding="10" Margin="10">
+            <Label Text="Calendar View Placeholder"
+                   FontSize="18"
+                   TextColor="Gray"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand"
+                   Margin="10"/>
+        </Frame>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Bersquash.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Bersquash.Pages"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Bersquash">
+
+    <TabBar>
+        <ShellContent
+        Title="Home"
+        Icon="/Resources/Images/home.svg"
+        ContentTemplate="{DataTemplate local:Home}" />
+
+    <ShellContent
+        Title="Event"
+        Icon="/Resources/Images/event.svg"
+        ContentTemplate="{DataTemplate local:Event}" />
+
+    <ShellContent
+        Title="Calendar"
+        Icon="/Resources/Images/calendar.svg"
+        ContentTemplate="{DataTemplate local:Calendar}" />
+
+    <ShellContent
+        Title="Chat"
+        Icon="/Resources/Images/chat.svg"
+        ContentTemplate="{DataTemplate local:Chat}" />
+
+    <ShellContent
+        Title="Court"
+        Icon="/Resources/Images/court.svg"
+        ContentTemplate="{DataTemplate local:Court}" />
+</TabBar>
+
+</Shell>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bersquash.Pages.Chat"
+             Title="Chat"
+             BackgroundColor="#1ABC9C">
+
+    <StackLayout Padding="20">
+        <Label Text="Chat"
+               FontSize="24"
+               TextColor="White"
+               HorizontalOptions="Center"
+               Margin="10"/>
+        <ListView>
+            <!-- Sample chat items -->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="User: Hello!" FontSize="18" TextColor="White"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackLayout Orientation="Horizontal" Padding="10">
+            <Entry Placeholder="Type your message here..." HorizontalOptions="FillAndExpand"/>
+            <Button Text="Send" BackgroundColor="#E67E22" TextColor="White"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

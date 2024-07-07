@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613133705781",
+    "project_id": "bersquash-8baeb",
+    "storage_bucket": "bersquash-8baeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613133705781:android:677fc8ed71ad998866c77c",
+        "android_client_info": {
+          "package_name": "com.companyname.bersquash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjQb51pfNtYzptofHCiD_uPVubXhU82GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

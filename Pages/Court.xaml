@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bersquash.Pages.Court"
+             Title="Court"
+             BackgroundColor="#1ABC9C">
+
+    <StackLayout Padding="20">
+        <Label Text="Courts"
+               FontSize="24"
+               TextColor="White"
+               HorizontalOptions="Center"
+               Margin="10"/>
+        <ScrollView>
+            <StackLayout>
+                <!-- Sample court items -->
+                <Frame BackgroundColor="White" CornerRadius="10" Padding="10" Margin="10">
+                    <Label Text="Court 1: Available" FontSize="18" TextColor="Black" />
+                </Frame>
+                <Frame BackgroundColor="White" CornerRadius="10" Padding="10" Margin="10">
+                    <Label Text="Court 2: Booked" FontSize="18" TextColor="Black" />
+                </Frame>
+                <!-- Add more court items here -->
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
